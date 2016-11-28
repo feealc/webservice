@@ -1,0 +1,28 @@
+{
+  "name": "webservice",
+  "private": true,
+  "version": "1.0.0",
+  "description": "atividade de webservice",
+  "main": "sources/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/babel-cli/bin/babel-node.js sources/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feealc/webservice.git"
+  },
+  "keywords": [],
+  "author": "Fernando Brum <fernandobalcantara@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feealc/webservice/issues"
+  },
+  "homepage": "https://github.com/feealc/webservice#readme",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "express": "^4.14.0"
+  }
+}
